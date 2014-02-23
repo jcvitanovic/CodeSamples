@@ -1,0 +1,6 @@
+c:\users\jelena\documents\visual studio 2013\Projects\APR_Dz3_GA\APR_Dz3_GA\bin\Debug\APR_Dz3_GA.exe.config
+c:\users\jelena\documents\visual studio 2013\Projects\APR_Dz3_GA\APR_Dz3_GA\bin\Debug\APR_Dz3_GA.exe
+c:\users\jelena\documents\visual studio 2013\Projects\APR_Dz3_GA\APR_Dz3_GA\bin\Debug\APR_Dz3_GA.pdb
+c:\users\jelena\documents\visual studio 2013\Projects\APR_Dz3_GA\APR_Dz3_GA\obj\Debug\APR_Dz3_GA.exe
+c:\users\jelena\documents\visual studio 2013\Projects\APR_Dz3_GA\APR_Dz3_GA\obj\Debug\APR_Dz3_GA.pdb
+c:\users\jelena\documents\visual studio 2013\Projects\APR_Dz3_GA\APR_Dz3_GA\obj\Debug\APR_Dz3_GA.csprojResolveAssemblyReference.cache
