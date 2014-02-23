@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RideAlong.AlternativeTripInfo" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACQAACAAAACAAAAAAAAACAAAAAAAAQAAAAAAAABAA=</HashCode>
+      <FileName>AlternativeTripInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RideAlong.City">
+    <Position X="6" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>City.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RideAlong.CityRepository">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAGAAAAAAEAAAAAAAAAAAAQABABAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>CityRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RideAlong.Employee">
+    <Position X="11.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEEACAAAAAAAAAACAAAAQAFABABAAIAAEAABAAAAQ=</HashCode>
+      <FileName>Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RideAlong.EmployeeFactory">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EmployeeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RideAlong.EmployeeRepository">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SAAQgAAAAAAAAAAAAAAAAAAABABAAAAAAACAAAAAAAg=</HashCode>
+      <FileName>EmployeeRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RideAlong.Trip">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAhACMAAAAAiAgCAAIAAAAABCAAgEFQAAAACIAABAA=</HashCode>
+      <FileName>Trip.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DepartureCity" />
+      <Property Name="TripOwner" />
+      <Property Name="Vehicle" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="RideAlong.TripRepository">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAVgAAAAAAAIgAQABAAAAQABIBCAAAAAAAAABAAAAA=</HashCode>
+      <FileName>TripRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RideAlong.TripStops">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAIAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TripStops.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="City" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="RideAlong.Vehicle">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAgAAAAAAAAAACAAgAAABAEQgAAIAAAAA=</HashCode>
+      <FileName>Vehicle.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Type" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="RideAlong.VehicleFactory">
+    <Position X="2.25" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VehicleFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RideAlong.VehicleRepository">
+    <Position X="4.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEgEAAAEQAAAAAAAAAAAQABADAgAAAAFAAAAAAAAA=</HashCode>
+      <FileName>VehicleRepository.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="instance" />
+    </ShowAsAssociation>
+  </Class>
+  <Enum Name="RideAlong.VehicleType">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>VehicleType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

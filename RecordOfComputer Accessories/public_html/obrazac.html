@@ -1,0 +1,197 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="dizajn.css" >
+	<title>Evidencija računalne opreme</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+<div id="container">
+<div id="header">
+	<h1 >Računalna oprema Fakulteta elektrotehnike i računarstva</h1>
+	<div id="picture"> <a href="index.html">
+	<img src="slika1.jpg" alt="Slika"> </a> </div>
+</div>
+
+<div id="sidebar" >
+	<br></br>
+	<ul class = "b">
+		<li><a href="index.html">Početna stranica</a></li>
+		<li><a href="obrazac.html">Pretraga</a></li>
+		<li><a href="podaci.xml">Tablica - primjer</a></li>
+		<li><a href="http://www.fer.unizg.hr/rasip">RASIP</a></li>
+		<li><a href="http://www.fer.unizg.hr/" target="_blank">FERweb</a></li>
+		<li><a href="mailto:jelena.cvitanovich@gmail.com?Subject=Upit">Kontakt</a></li>
+	</ul>
+</div>
+
+<div id="content" >
+<h2>Pretraga po zadanim parametrima</h2> <br />
+<div id="forma">
+<form action="pretraga.php" method="get">
+<table class="o" id="obr" border=1 summary="">
+  <tbody>
+    <tr>
+      <td id="root">RAČUNALO</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Identifikator računala</td>
+      <td>
+<p>unos (ID) :<input type="text" name="id" /></p>
+</td>
+    </tr>
+	    <tr>
+      <td>Proizvođač racunala</td>
+      <td>
+<p><input type="text" name="proizvodac" /></p>
+</td>
+    </tr>
+    <tr>
+      <td>Naziv ili opis računala</td>
+      <td>
+<p><input type="text" name="naziv" /></p>
+
+    </tr>
+	    <tr>
+      <td>Grafička kartica</td>
+      <td><form action="">
+<p><input type="text" name="graficka_kartica" /></p>
+</td>
+    </tr>
+    <tr>
+      <td>Procesor</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><ul id="pod1">
+		<li>Naziv procesora</li> </ul></td>
+      <td>
+<p><input type="text" name="naziv_procesora" /></p>
+</td>
+    </tr>
+    <tr>
+      <td><ul id="pod2">
+		<li>Frekvencija procesora</li> </ul></td>
+      <td>
+<p><input type="text" name="frekvencija_procesora" /></p>
+    </tr>
+    <tr>
+      <td>Broj procesora</td>
+      <td>
+<p><input type="radio" name="broj_procesora" value="1" /> Jedan</p>
+<p><input type="radio" name="broj_procesora" value="2" /> Dva</p>
+<p><input type="radio" name="broj_procesora" value="4" /> Četiri</p>
+<p><input type="radio" name="broj_procesora" value="8" /> Osam</p>
+
+</td>
+    </tr>
+	      <td>Broj USB ulaza</td>
+      <td>
+<p><input type="radio" name="broj_usb_ulaza" value="2" /> Dva</p>
+<p><input type="radio" name="broj_usb_ulaza" value="4" /> Četiri</p>
+<p><input type="radio" name="broj_usb_ulaza" value="6" /> Šest</p>
+<p><input type="radio" name="broj_usb_ulaza" value="8" /> Osam</p>
+
+
+</td>
+    </tr>
+    <tr>
+      <td>Tvrdi disk</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><ul id="pod3">
+		<li>Proizvođač</li> </ul></td>
+      <td>
+<p>naziv:<input type="text" name="hd_proizvodac" /></p>
+</td>
+    </tr>
+    <tr>
+      <td><ul id="pod4">
+		<li>Kapacitet</li> </ul></td>
+      <td>
+<p>u GB:<input type="text" name="kapacitet" /></p>
+</td>
+    </tr>
+    <tr>
+      <td>Količina RAM-a</td>
+      <td>
+<p>u MB  ili GB:<input type="text" name="kolicina_rama" /></p>
+</td>
+    </tr>
+    <tr>
+      <td>Namjena računala</td>
+      <td>
+<p><input type="checkbox" name="namjena_racunala[]" value="Osobno" /> Osobno</p>
+<p><input type="checkbox" name="namjena_racunala[]" value="Poslužiteljsko" /> Poslužiteljsko</p>
+<p><input type="checkbox" name="namjena_racunala[]" value="Namjensko" /> Namjensko</p>
+<p><input type="checkbox" name="namjena_racunala[]" value="Ugradbeno" /> Ugradbeno</p>
+
+</td>
+    </tr>
+    <tr>
+      <td>Datum kupnje</td>
+      <td>
+<p>datum:<input type="text" name="datum_kupnje" /></p>
+<p>trajanje jamstva: <input type="text" name="trajanje_jamstva" /></p>
+</td>
+    </tr>
+    <tr>
+      <td>Inventarski broj</td>
+      <td>
+<p><input type="text" name="inv_broj" /></p>
+</td>
+    </tr>
+    <tr>
+
+      <td>Lokacija na fakultetu</td>
+      <td>
+<p><input type="checkbox" name="lokacija[]" value="PCLAB1" /> PCLAB1</p>
+<p><input type="checkbox" name="lokacija[]" value="PCLAB2" /> PCLAB2</p>
+<p><input type="checkbox" name="lokacija[]" value="A101" /> A101</p>
+<p><input type="checkbox" name="lokacija[]" value="A102" /> A102</p>
+<p><input type="checkbox" name="lokacija[]" value="CIP" /> CIP</p>
+
+</td>
+    </tr>
+    <tr>
+      <td>Glavni operacijski sustav</td>
+      <td>
+	<p>Odaberite ponuđeno:</p>
+<p><select name="glavni_os">
+<option value=""></option>
+<option value="Linux">Linux</option>
+<option value="UNIX">Unix</option>
+<option value="WindowsXP">Windows XP</option>
+<option value="WindowsVista">Windows Vista</option>
+</select></p>
+
+    </tr>
+  </tbody>
+</table>
+<div id="send">
+
+<p><input type="submit" value="POŠALJI"></p>
+
+</div>
+<div id="reset">
+
+<p><input type="reset" value="RESET POLJA"></p>
+</form>
+</div>
+</div>
+</div>
+
+
+<div id="footer" >
+<p>Jelena Cvitanović </p>
+<p>Akademska godina 2011./2012. </p>
+</div>
+</div>
+<body/>
+</html>
+

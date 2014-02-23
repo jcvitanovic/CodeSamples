@@ -1,0 +1,12 @@
+#id|broj_procesora|broj_usb_ulaza|namjena|inv_broj|lokacija|glavni_os|naziv|proizvodac|procesor (naziv i frekvencija)|tvrdi_disk(naziv i kapacitet)|kolicina_rama|datum_kupnje|graficka_kartica
+
+a00000|1|4|Osobno|25812|PCLAB1|WindowsXP|Racunalo u PCLAB1|Dell|Intel Core i5-2500K,2.2GHz|Western Digital,220GB;Seagate,380GB|2GB| |Palit GF210 SUPER SILENT
+a00001|2|6|Posluziteljsko|25612|PCLAB2|WindowsVista|Racunalo u PCLAB2|Acer|Intel Core i7-2600K,3.4GHz|Seagate,380GB|8GB|10.04.2011.|PointOfView GF210
+a00002|4|2|Namjensko|25712|A101|Linux|Racunalo u A101|Prestigio|Intel Pentium Processor T3200,2GHz|Seagate,200GB|2GB|10.04.2009.|PointOfView GF210
+a00003|8|4|Ugradbeno|25714|A102|UNIX|Racunalo u A102|HP|Intel Pentium Processor T2250,2.2GHz|Western Digital,260GB|2GB|10.04.2008.|Palit GF210 SUPER SILENT
+a00004|1|2|Ugradbeno|26104|CIP|WindowsXP|Racunalo u CIP-u|Dell|Intel Core i3-2310M,2.1GHz|Western Digital,500GB|2GB|10.04.2011.|PowerColor Low Profile Bracket
+a00005|2|6|Posluziteljsko|26105|CIP|Linux|Racunalo u CIP-u|Dell|Intel Core i3-2310M,2.1GHz|Western Digital,500GB|4GB|10.04.2008.|PowerColor Low Profile Bracket
+a00006|4|2|Ugradbeno|26106|CIP|Linux|Racunalo u CIP-u|Dell|Intel Core i3-2310M,2.1GHz|Western Digital,500GB|4GB|10.04.2008.|PowerColor Low Profile Bracket
+a00007|8|4|Namjensko|26107|CIP|Linux|Racunalo u CIP-u|Dell|Intel Core i3-2310M,2.1GHz|Western Digital,500GB|4GB|10.04.2008.|PowerColor Low Profile Bracket
+a00008|4|2|Posluziteljsko|26108|CIP|Linux|Racunalo u CIP-u|Dell|Intel Core i3-2310M,2.1GHz|Western Digital,500GB|4GB|10.04.2008.|PowerColor Low Profile Bracket
+a00009|8|6|Osobno|26109|CIP|Linux|Racunalo u CIP-u|Dell|Intel Core i3-2310M,2.1GHz|Western Digital,500GB|4GB|10.04.2008.|PowerColor Low Profile Bracket

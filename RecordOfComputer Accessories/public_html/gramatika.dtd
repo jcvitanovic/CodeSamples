@@ -1,0 +1,23 @@
+<!ELEMENT podaci (racunalo)*>
+<!ELEMENT racunalo (naziv,proizvodac,procesor,tvrdi_disk,kolicina_rama,datum_kupnje?, graficka_kartica,trajanje_jamstva?)*>
+<!ELEMENT naziv (#PCDATA)>
+<!ELEMENT proizvodac (#PCDATA)>
+<!ELEMENT tvrdi_disk (hd_proizvodac?,kapacitet)+>
+<!ELEMENT kolicina_rama (#PCDATA)>
+<!ELEMENT datum_kupnje (#PCDATA)>
+<!ELEMENT trajanje_jamstva (#PCDATA)>
+<!ELEMENT graficka_kartica (#PCDATA)>
+<!ELEMENT procesor (naziv_procesora,frekvencija_procesora)>
+<!ELEMENT naziv_procesora (#PCDATA)>
+<!ELEMENT frekvencija_procesora (#PCDATA)>
+<!ELEMENT hd_proizvodac (#PCDATA)>
+<!ELEMENT kapacitet (#PCDATA)>
+
+<!ATTLIST racunalo id ID #REQUIRED>
+<!ATTLIST racunalo  inv_broj CDATA #REQUIRED>
+<!ATTLIST racunalo broj_procesora  (1|2|4|8) #REQUIRED>
+<!ATTLIST racunalo namjena_racunala  (Osobno|Posluziteljsko|Namjensko|Ugradbeno) #REQUIRED>
+<!ATTLIST racunalo lokacija  (PCLAB1|PCLAB2|A101|A102|CIP) #REQUIRED>
+<!ATTLIST racunalo glavni_os  (Linux|UNIX|WindowsXP|WindowsVista) #REQUIRED>
+<!ATTLIST racunalo broj_usb_ulaza  (2|4|6|8) #REQUIRED>
+

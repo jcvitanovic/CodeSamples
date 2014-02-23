@@ -1,0 +1,85 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="pretvorba.xsl"?>
+<!DOCTYPE podaci SYSTEM "gramatika.dtd">
+<podaci>
+	<racunalo id="a00000" broj_procesora="1" broj_usb_ulaza="4" namjena_racunala="Osobno" inv_broj="25812" lokacija= "PCLAB1" glavni_os="WindowsXP">
+		<naziv>Računalo u PCLAB1</naziv>
+		<proizvodac>Dell</proizvodac>
+		<procesor>
+			<naziv_procesora>Intel Core i5-2500K</naziv_procesora>
+			<frekvencija_procesora>2.2GHz</frekvencija_procesora>
+		</procesor>
+		<tvrdi_disk>
+			<hd_proizvodac>Western Digital</hd_proizvodac>
+			<kapacitet>220GB</kapacitet>
+		</tvrdi_disk>
+		<kolicina_rama>2GB</kolicina_rama>
+		<datum_kupnje>10.04.2008.</datum_kupnje>
+		<graficka_kartica>Palit GF210 SUPER SILENT</graficka_kartica>
+		<trajanje_jamstva>24 mjeseci</trajanje_jamstva>
+	</racunalo>
+	<racunalo id="a00001" broj_procesora="2" broj_usb_ulaza="6" namjena_racunala="Poslužiteljsko" inv_broj="25612" lokacija= "PCLAB2" glavni_os="WindowsVista">
+		<naziv>Računalo u PCLAB2</naziv>
+		<proizvodac>Acer</proizvodac>
+		<procesor>
+			<naziv_procesora>Intel Core i7-2600K</naziv_procesora>
+			<frekvencija_procesora>3.4GHz</frekvencija_procesora>
+		</procesor>
+		<tvrdi_disk>
+			<hd_proizvodac>Seagate</hd_proizvodac>
+			<kapacitet>380GB</kapacitet>
+		</tvrdi_disk>
+		<kolicina_rama>8GB</kolicina_rama>
+		<graficka_kartica>PointOfView GF210</graficka_kartica>
+		<trajanje_jamstva>12 mjeseci</trajanje_jamstva>
+	</racunalo>	
+	<racunalo id="a00002" broj_procesora="4" broj_usb_ulaza="2" namjena_racunala="Namjensko" inv_broj="25712" lokacija= "A101" glavni_os="Linux">
+		<naziv>Računalo u A101</naziv>
+		<proizvodac>Prestigio</proizvodac>
+		<procesor>
+			<naziv_procesora>Intel Pentium Processor T3200</naziv_procesora>
+			<frekvencija_procesora>2GHz</frekvencija_procesora>
+		</procesor>
+		<tvrdi_disk>
+			<hd_proizvodac>Seagate</hd_proizvodac>
+			<kapacitet>200GB</kapacitet>
+		</tvrdi_disk>
+		<kolicina_rama>2GB</kolicina_rama>
+		<datum_kupnje>10.04.2009.</datum_kupnje>
+		<graficka_kartica>PointOfView GF210</graficka_kartica>
+		<trajanje_jamstva>12 mjeseci</trajanje_jamstva>
+	</racunalo>	
+	<racunalo id="a00003" broj_procesora="8" broj_usb_ulaza="4" namjena_racunala="Ugradbeno" inv_broj="25714" lokacija= "A102" glavni_os="UNIX">
+		<naziv>Računalo u A102</naziv>
+		<proizvodac>HP</proizvodac>
+		<procesor>
+			<naziv_procesora>Intel Pentium Processor T2250</naziv_procesora>
+			<frekvencija_procesora>2.2GHz</frekvencija_procesora>
+		</procesor>
+		<tvrdi_disk>
+			<hd_proizvodac>Western Digital</hd_proizvodac>
+			<kapacitet>260GB</kapacitet>
+		</tvrdi_disk>
+		<kolicina_rama>2GB</kolicina_rama>
+		<datum_kupnje>10.04.2008.</datum_kupnje>
+		<graficka_kartica>Palit GF210 SUPER SILENT</graficka_kartica>
+		<trajanje_jamstva>6 mjeseci</trajanje_jamstva>
+	</racunalo>	
+	<racunalo id="a00004" broj_procesora="1" broj_usb_ulaza="2" namjena_racunala="Osobno" inv_broj="26104" lokacija= "CIP" glavni_os="WindowsXP">
+		<naziv>Računalo u CIP-u</naziv>
+		<proizvodac>Dell</proizvodac>
+		<procesor>
+			<naziv_procesora>Intel Core i3-2310M</naziv_procesora>
+			<frekvencija_procesora>2.1GHz</frekvencija_procesora>
+		</procesor>
+		<tvrdi_disk>
+			<hd_proizvodac>Western Digital</hd_proizvodac>
+			<kapacitet>500GB</kapacitet>
+		</tvrdi_disk>
+		<kolicina_rama>2GB</kolicina_rama>
+		<datum_kupnje>10.04.2011.</datum_kupnje>
+		<graficka_kartica>PowerColor Low Profile Bracket</graficka_kartica>
+		<trajanje_jamstva>12 mjeseci</trajanje_jamstva>
+	</racunalo>	
+
+</podaci>
